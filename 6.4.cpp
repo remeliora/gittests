@@ -27,7 +27,7 @@ int** create_mas (int n) {
 }
 
 void output (int** mas, int n) {
-    for (int i = 0; i < n; i++) {
+    for (int i = 1; i < n; i++) {
         for (int j = 0; j < n; j++) {
             if (i == j) mas [i][j] = 1;
             else mas [i][j] = 0;
